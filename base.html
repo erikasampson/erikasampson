@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Erika Sampson" content="Portfolio">
+        <link rel="stylesheet" href="style.css">
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+
+    <body>
+    <div class="nav">
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+    </div>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <div class="footer">
+        <footer>
+            <p>Made by Erika Sampson</p>
+        </footer>
+    </div>
+</html>

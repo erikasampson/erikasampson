@@ -1,4 +1,17 @@
 .nav {
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
+}
+
+.nav a {
+    float: right;
+}
+
+.nav a:hover {
+    background-color: aqua;
+}
+
+.nav a:active {
+    background-color: blue;
 }
