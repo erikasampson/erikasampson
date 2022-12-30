@@ -1,17 +1,23 @@
 .nav {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    background-color: black;
 }
 
 .nav a {
     float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
 }
 
 .nav a:hover {
-    background-color: aqua;
+    background-color: rgb(131, 131, 131);
+    color: black;
 }
 
 .nav a:active {
-    background-color: blue;
+    background-color: rgb(124, 7, 7);
+    color: #f2f2f2;
 }
