@@ -46,19 +46,10 @@ nav a.active, #home.active {
     justify-content: space-evenly;
 }
 
-.thumbnail1 {
-    grid-row: 1;
-    grid-column: 1;
-}
-
-.thumbnail2 {
-    grid-row: 1;
-    grid-column: 2;
-}
-
-.thumbnail2 {
-    grid-row: 1;
-    grid-column: 3;
+.thumbnailContainer figure {
+    width: 325px;
+    height: 325px;
+    margin: 11px;
 }
 
 .footer {
