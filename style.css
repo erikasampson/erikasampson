@@ -1,23 +1,32 @@
-.nav {
+nav {
     display: flex;
     flex-direction: row;
 }
 
-.nav a {
+nav a {
     float: right;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     font-size: 15px;
     text-decoration: none;
 }
 
-.nav a:hover {
-    background-color: rgb(131, 131, 131);
-    color: black;
+nav a:hover {
+    color: rgb(124, 7, 7);
 }
 
-.nav a.active {
-    background-color: rgb(124, 7, 7);
-    color: #f2f2f2;
+nav a.active {
+    color: rgb(97, 97, 97);
+}
+
+#home {
+    color: black;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
 }
