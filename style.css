@@ -28,6 +28,7 @@ nav a:hover, #home:hover {
 
 nav a.active, #home.active {
     color: rgb(97, 97, 97);
+    border-bottom: 2px rgb(124, 7, 7);
 }
 
 #home {
@@ -47,9 +48,9 @@ nav a.active, #home.active {
 }
 
 .thumbnailContainer figure {
-    width: 325px;
-    height: 325px;
-    margin: 11px;
+    width: 30%;
+    height: 30%;
+    margin: 2%;
 }
 
 .footer {
