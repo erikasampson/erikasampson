@@ -12,17 +12,17 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover, #home:hover {
     color: rgb(124, 7, 7);
 }
 
-nav a.active {
+nav a.active, #home.active {
     color: rgb(97, 97, 97);
 }
 
 #home {
     color: black;
-    padding: 20px;
+    padding: 14px 20px;
     font-size: 18px;
     text-decoration: none;
 }
