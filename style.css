@@ -35,12 +35,13 @@ nav a.active, #home.active {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 10px;
 }
 
 .thumbnailContainer figure {
+    object-fit: cover;
     height: auto;
-    max-width: 30%;
-    margin: 20px;
+    max-width: 100%;
 }
 
 .footer {
