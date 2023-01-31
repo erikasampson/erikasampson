@@ -40,8 +40,8 @@ nav a.active, #home.active {
 
 .thumbnailContainer figure img{
     object-fit: cover;
-    height: 30%;
-    width: 30%;
+    height: 400px;
+    width: 400px;
 }
 
 .footer {
