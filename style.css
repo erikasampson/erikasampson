@@ -38,7 +38,7 @@ nav a.active, #home.active {
     gap: 10px;
 }
 
-.thumbnailContainer figure {
+.thumbnailContainer figure img{
     object-fit: cover;
     height: 500px;
     width: 500px;
