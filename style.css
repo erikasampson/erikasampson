@@ -1,3 +1,26 @@
+/* new css */
+#project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project {
+    width: calc(50% - 20px);
+    margin-bottom: 40px;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .project h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
 
 /* nav bar css */
 nav {
