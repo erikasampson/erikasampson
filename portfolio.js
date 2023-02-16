@@ -25,8 +25,8 @@ function addProjectToGallery(title, imagePath, description) {
     galleryElement.appendChild(projectElement);
   }
 
-addProjectToGallery("Project 1", "images/project1.jpg", "This is a description of Project 1.");
-addProjectToGallery("Project 2", "images/project2.jpg", "This is a description of Project 2.");
-addProjectToGallery("Project 3", "images/project3.jpg");
+addProjectToGallery("Project 1", "img/tempImg.jpg", "This is a description of Project 1.");
+addProjectToGallery("Project 2", "img/tempImg.jpg", "This is a description of Project 2.");
+addProjectToGallery("Project 3", "img/tempImg.jpg");
   
   
