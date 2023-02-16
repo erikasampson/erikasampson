@@ -29,25 +29,25 @@ nav a.active, #home.active {
     align-self: center;
 }
 
-/* work.html content css */
-#project-gallery {
+/* gameProjects.html, work.html content css */
+#project-gallery, #projectType-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   
-  .project {
+  .project, .projectType {
     width: calc(50% - 20px);
     margin-bottom: 40px;
   }
   
-  .project img {
+  .project img, .projectType img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
   }
   
-  .project h2 {
+  .project h2, .projectType h2 {
     font-size: 20px;
     margin: 0;
   }
