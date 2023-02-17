@@ -57,7 +57,11 @@ nav a.active, #home.active {
   
 /* projectDetail pages content css */
 .projectDetail-content {
-    padding: 10px;
+    padding: 10%;
+}
+
+.projectDetail-content p {
+    padding: 15%;
 }
 
 /* general css */
