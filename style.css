@@ -36,40 +36,28 @@ nav a.active, #home.active {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
+}
   
-  .project, .projectType {
+.project, .projectType {
     width: calc(50% - 20px);
     margin-bottom: 40px;
-  }
+}
   
-  .project img, .projectType img {
+.project img, .projectType img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
     object-fit: cover;
-  }
+}
   
-  .project h2, .projectType h2 {
+.project h2, .projectType h2 {
     font-size: 20px;
     margin: 0;
-  }
-  
-/* .thumbnailContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 10px;
 }
-
-.thumbnailContainer figure img {
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-} */
-
-.footer {
-    text-align: center;
+  
+/* projectDetail pages content css */
+.projectDetail-content {
+    padding: 10px;
 }
 
 /* general css */
@@ -78,5 +66,9 @@ a {
 }
 
 h1 {
+    text-align: center;
+}
+
+.footer {
     text-align: center;
 }
