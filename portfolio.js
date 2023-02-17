@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Add event listeners to the images
   images.forEach((image, i) => {
     image.addEventListener('click', () => {
+      console.log("registered click");
       // Remove the active class from the current image
       images[index].classList.remove('active');
 
