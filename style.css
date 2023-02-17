@@ -73,13 +73,12 @@ nav a.active,
   }
   
   .gallery-image {
-    position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-    max-height: 400px;
-    max-width: 100%;
+    height: auto;
+    width: 100%;
     object-fit: cover;
   }
   
@@ -88,7 +87,6 @@ nav a.active,
   }
 
 .gallery-controls {
-    position: absolute;
     bottom: 20px;
     display: flex;
     justify-content: space-between;
