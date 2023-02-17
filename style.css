@@ -67,21 +67,21 @@ nav a.active,
     height: 400px;
     position: relative;
     overflow: hidden;
-  }
-  
-  .gallery-image {
+}
+
+.gallery-image {
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
     z-index: -1;
     transition: opacity 1s ease-in-out;
-  }
-  
-  .gallery-image.active {
+}
+
+.gallery-image.active {
     opacity: 1;
     z-index: 1;
-  }  
+}
 
 .projectDetail-content {
     padding: 10%;
