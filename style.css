@@ -62,31 +62,26 @@ nav a.active,
 }
 
 /* projectDetail pages content css */
-.gallery {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.gallery-container {
     width: 100%;
     height: 400px;
-}
-
-.gallery li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.gallery img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.gallery figcaption {
-    display: block;
-    font-size: 14px;
-    margin-top: 5px;
-    text-align: center;
-}
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .gallery-image.active {
+    opacity: 1;
+    z-index: 1;
+  }  
 
 .projectDetail-content {
     padding: 10%;

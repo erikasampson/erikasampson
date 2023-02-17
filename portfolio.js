@@ -1,32 +1,20 @@
-function addProjectToGallery(title, imagePath, description) {
-    // create a new project element
-    const projectElement = document.createElement("div");
-    projectElement.classList.add("project");
-  
-    // add the project image
-    const imageElement = document.createElement("img");
-    imageElement.src = imagePath;
-    projectElement.appendChild(imageElement);
-  
-    // add the project title
-    const titleElement = document.createElement("h2");
-    titleElement.textContent = title;
-    projectElement.appendChild(titleElement);
-  
-    // add the project description (if provided)
-    if (description) {
-      const descriptionElement = document.createElement("p");
-      descriptionElement.textContent = description;
-      projectElement.appendChild(descriptionElement);
-    }
-  
-    // add the project element to the gallery
-    const galleryElement = document.getElementById("project-gallery");
-    galleryElement.appendChild(projectElement);
-  }
+const images = document.querySelectorAll('.gallery-image');
+let index = 0;
 
-addProjectToGallery("Project 1", "img/tempImg.jpg", "This is a description of Project 1.");
-addProjectToGallery("Project 2", "img/tempImg.jpg", "This is a description of Project 2.");
-addProjectToGallery("Project 3", "img/tempImg.jpg");
+// Set the first image as active
+images[index].classList.add('active');
+
+// Add event listeners to the images
+images.forEach((image, i) => {
+  image.addEventListener('click', () => {
+    // Remove the active class from the current image
+    images[index].classList.remove('active');
+
+    // Set the clicked image as active
+    index = i;
+    images[index].classList.add('active');
+  });
+});
+
   
   
