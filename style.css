@@ -83,6 +83,29 @@ nav a.active,
     z-index: 1;
 }
 
+.gallery-controls {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.prev-button,
+.next-button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.prev-button:hover,
+.next-button:hover {
+    text-decoration: underline;
+}
+
 .projectDetail-content {
     padding: 10%;
 }
