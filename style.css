@@ -80,7 +80,7 @@ nav a.active,
     transition: opacity 0.5s ease-in-out;
     height: auto;
     width: 100%;
-    object-fit: contain;
+    object-fit: scale-down;
   }
   
   .gallery-image.active {
