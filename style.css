@@ -112,6 +112,8 @@ nav a.active,
 .projectDetail-content {
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .projectDetail-content p {
